@@ -22,10 +22,7 @@ export class RegisterComponent {
   });
   isSubmitting$ = this.store.select(selectIsSubmitting);
 
-  constructor(
-    private fb: FormBuilder,
-    private store: Store<{ auth: AuthStateInterface }>
-  ) {}
+  constructor(private fb: FormBuilder, private store: Store) {}
 
   onSubmit(): void {
     console.log('form', this.form.getRawValue());
