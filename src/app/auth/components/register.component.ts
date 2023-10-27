@@ -4,7 +4,7 @@ import { Store } from '@ngrx/store';
 import { register } from '../store/actions';
 import { RegisterRequestInterface } from '../types/register-request.interface';
 import { RouterLink } from '@angular/router';
-import { selectIsSubmitting } from '../store/selectors';
+import { selectIsSubmitting } from '../store/reducers';
 import { AuthStateInterface } from '../types/auth-state.interface';
 import { CommonModule } from '@angular/common';
 
