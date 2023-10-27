@@ -1,12 +1,16 @@
 # NgrxMediumCloneApp
-This is an application to demonstrate the usage of Angular standalone components and states using ngRx
 
+This is an application to demonstrate the usage of Angular standalone components and states using ngRx
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.10.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+## Backend API Documentation
+
+Link: https://realworld-docs.netlify.app/docs/specs/backend-specs/endpoints/
 
 ## Code scaffolding
 
